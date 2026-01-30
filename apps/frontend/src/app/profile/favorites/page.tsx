@@ -124,7 +124,6 @@ export default function FavoritesPage() {
     if (!product.inStock) return;
 
     addItem({
-      id: product.id,
       productId: product.id,
       name: product.name,
       nameAr: product.nameAr,
@@ -133,7 +132,8 @@ export default function FavoritesPage() {
       quantity: 1,
       maxQuantity: 10,
       sellerId: product.sellerId,
-      sellerName: product.sellerName
+      sellerName: product.sellerName,
+      inStock: product.inStock
     });
   };
 
@@ -256,11 +256,11 @@ export default function FavoritesPage() {
 
                   <div className="flex items-baseline gap-2 mb-3">
                     <span className="text-lg font-bold text-gray-900">
-                      {formatPrice(product.price, language, product.currency)}
+                      {formatPrice(product.price, language)}
                     </span>
                     {product.originalPrice && (
                       <span className="text-sm text-gray-500 line-through">
-                        {formatPrice(product.originalPrice, language, product.currency)}
+                        {formatPrice(product.originalPrice, language)}
                       </span>
                     )}
                   </div>

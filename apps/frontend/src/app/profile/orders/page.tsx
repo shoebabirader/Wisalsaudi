@@ -251,7 +251,7 @@ export default function OrderHistoryPage() {
                       {t('orders.items', { count: order.items.length })}
                     </span>
                     <span className="font-semibold text-gray-900">
-                      {t('orders.total')}: {formatPrice(order.total, language, order.currency)}
+                      {t('orders.total')}: {formatPrice(order.total, language)}
                     </span>
                   </div>
                 </div>
@@ -273,7 +273,7 @@ export default function OrderHistoryPage() {
                             {language === 'ar' ? item.productNameAr : item.productName}
                           </p>
                           <p className="text-xs text-gray-600">
-                            Qty: {item.quantity} × {formatPrice(item.unitPrice, language, order.currency)}
+                            Qty: {item.quantity} × {formatPrice(item.unitPrice, language)}
                           </p>
                         </div>
                       </div>

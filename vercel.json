@@ -1,5 +1,15 @@
 {
-  "buildCommand": "cd apps/frontend && npm install --legacy-peer-deps && npm run build",
-  "outputDirectory": "apps/frontend/.next",
-  "installCommand": "npm install --legacy-peer-deps"
+  "version": 2,
+  "builds": [
+    {
+      "src": "apps/frontend/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "apps/frontend/$1"
+    }
+  ]
 }

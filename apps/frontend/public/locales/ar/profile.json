@@ -1,0 +1,31 @@
+{
+  "title": "ملفي الشخصي",
+  "menu": {
+    "orders": "طلباتي",
+    "favorites": "المفضلة",
+    "addresses": "العناوين",
+    "paymentMethods": "طرق الدفع",
+    "notifications": "إعدادات الإشعارات",
+    "language": "اللغة",
+    "help": "المساعدة والدعم",
+    "logout": "تسجيل الخروج"
+  },
+  "orders": {
+    "title": "سجل الطلبات",
+    "empty": "لا توجد طلبات بعد",
+    "status": {
+      "pending": "قيد الانتظار",
+      "confirmed": "مؤكد",
+      "processing": "قيد المعالجة",
+      "shipped": "تم الشحن",
+      "delivered": "تم التسليم",
+      "cancelled": "ملغي"
+    },
+    "reorder": "إعادة الطلب"
+  },
+  "language": {
+    "title": "اختر اللغة",
+    "english": "English",
+    "arabic": "العربية"
+  }
+}

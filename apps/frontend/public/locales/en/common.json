@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "Home",
+    "categories": "Categories",
+    "videos": "Videos",
+    "cart": "Cart",
+    "profile": "Profile"
+  },
+  "actions": {
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now",
+    "viewDetails": "View Details",
+    "favorite": "Add to Favorites",
+    "share": "Share",
+    "search": "Search products..."
+  },
+  "search": {
+    "placeholder": "Search products...",
+    "submit": "Search",
+    "loading": "Loading suggestions...",
+    "noSuggestions": "No suggestions found",
+    "resultsFor": "Search results for",
+    "results": "Search Results",
+    "foundProducts": "{{count}} products found",
+    "sortBy": "Sort by",
+    "sort": {
+      "relevance": "Relevance",
+      "newest": "Newest",
+      "priceLowHigh": "Price: Low to High",
+      "rating": "Rating"
+    },
+    "noResults": "No products found",
+    "noResultsDescription": "We couldn't find any products matching your search.",
+    "suggestions": {
+      "checkSpelling": "Check your spelling",
+      "tryDifferent": "Try different keywords",
+      "tryGeneral": "Try more general terms"
+    },
+    "startSearching": "Start Searching",
+    "startSearchingDescription": "Enter a search term to find products"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "categories": {
+    "filterByCategory": "Filter by Category"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close"
+  }
+}

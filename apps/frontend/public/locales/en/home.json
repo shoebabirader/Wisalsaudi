@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "title": "Discover Products Through Video",
+    "subtitle": "Shop the latest trends with immersive video shopping"
+  },
+  "search": {
+    "placeholder": "Search for products, brands, or categories...",
+    "button": "Search"
+  },
+  "sections": {
+    "trending": "Trending Now",
+    "flashDeals": "Flash Deals",
+    "newArrivals": "New Arrivals",
+    "categories": "Shop by Category",
+    "featuredSellers": "Featured Sellers"
+  },
+  "deals": {
+    "endsIn": "Ends in",
+    "viewAll": "View All"
+  }
+}

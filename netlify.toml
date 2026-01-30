@@ -1,0 +1,6 @@
+[build]
+  command = "npm install && npx turbo run build --filter=@wisal/frontend"
+  publish = "apps/frontend/.next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

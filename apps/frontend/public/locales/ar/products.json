@@ -1,0 +1,73 @@
+{
+  "title": "المنتجات",
+  "inStock": "متوفر",
+  "outOfStock": "نفذت الكمية",
+  "filters": {
+    "title": "الفلاتر",
+    "priceRange": "نطاق السعر",
+    "category": "الفئة",
+    "brand": "العلامة التجارية",
+    "rating": "التقييم",
+    "availability": "التوفر",
+    "inStock": "المتوفر فقط",
+    "clearAll": "مسح الكل"
+  },
+  "sort": {
+    "title": "ترتيب حسب",
+    "relevance": "الأكثر صلة",
+    "priceLowToHigh": "السعر: من الأقل للأعلى",
+    "priceHighToLow": "السعر: من الأعلى للأقل",
+    "newest": "الأحدث",
+    "popularity": "الأكثر شعبية"
+  },
+  "view": {
+    "grid": "عرض شبكي",
+    "list": "عرض قائمة"
+  },
+  "details": {
+    "description": "الوصف",
+    "specifications": "المواصفات",
+    "reviews": "التقييمات",
+    "seller": "البائع",
+    "shipping": "معلومات الشحن",
+    "relatedProducts": "منتجات ذات صلة",
+    "soldBy": "البائع",
+    "visitStore": "زيارة المتجر",
+    "back": "رجوع",
+    "notFound": "المنتج غير موجود",
+    "notFoundMessage": "عذراً، لم نتمكن من العثور على المنتج المطلوب",
+    "backToHome": "العودة للرئيسية"
+  },
+  "actions": {
+    "addToCart": "أضف إلى السلة",
+    "buyNow": "اشتر الآن",
+    "favorite": "المفضلة",
+    "share": "مشاركة",
+    "quantity": "الكمية",
+    "available": "{{count}} متاح",
+    "adding": "جاري الإضافة..."
+  },
+  "rating": {
+    "stars": "{{count}} نجوم",
+    "reviews": "{{count}} تقييم",
+    "writeReview": "اكتب مراجعة",
+    "ratingsAndReviews": "التقييمات والمراجعات",
+    "basedOn": "بناءً على",
+    "noReviews": "لا توجد مراجعات بعد",
+    "beFirst": "كن أول من يكتب مراجعة لهذا المنتج",
+    "verifiedPurchase": "مشتري موثق",
+    "helpful": "مفيد"
+  },
+  "stock": {
+    "inStock": "متوفر",
+    "outOfStock": "نفذت الكمية",
+    "lowStock": "{{count}} متبقي فقط"
+  },
+  "share": {
+    "whatsapp": "واتساب",
+    "twitter": "تويتر",
+    "facebook": "فيسبوك",
+    "copyLink": "نسخ الرابط",
+    "linkCopied": "تم نسخ الرابط"
+  }
+}

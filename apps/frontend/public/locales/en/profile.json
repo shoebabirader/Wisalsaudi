@@ -1,0 +1,31 @@
+{
+  "title": "My Profile",
+  "menu": {
+    "orders": "My Orders",
+    "favorites": "Favorites",
+    "addresses": "Addresses",
+    "paymentMethods": "Payment Methods",
+    "notifications": "Notification Settings",
+    "language": "Language",
+    "help": "Help & Support",
+    "logout": "Logout"
+  },
+  "orders": {
+    "title": "Order History",
+    "empty": "No orders yet",
+    "status": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    },
+    "reorder": "Reorder"
+  },
+  "language": {
+    "title": "Select Language",
+    "english": "English",
+    "arabic": "العربية"
+  }
+}

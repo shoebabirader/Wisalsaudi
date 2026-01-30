@@ -1,0 +1,40 @@
+{
+  "title": "سلة التسوق",
+  "empty": {
+    "title": "سلتك فارغة",
+    "subtitle": "ابدأ بإضافة المنتجات إلى سلتك",
+    "browseProducts": "تصفح المنتجات",
+    "watchVideos": "شاهد فيديوهات المنتجات",
+    "benefits": "لماذا التسوق مع ويصل؟",
+    "freeShipping": "شحن مجاني",
+    "quality": "منتجات عالية الجودة",
+    "secure": "دفع آمن"
+  },
+  "summary": {
+    "title": "ملخص الطلب",
+    "subtotal": "المجموع الفرعي",
+    "shipping": "الشحن",
+    "discount": "الخصم",
+    "total": "الإجمالي",
+    "estimatedDelivery": "التسليم المتوقع",
+    "free": "مجاني",
+    "outOfStockWarning": "قم بإزالة العناصر غير المتوفرة للمتابعة"
+  },
+  "actions": {
+    "proceedToCheckout": "إتمام الطلب",
+    "continueShopping": "متابعة التسوق",
+    "applyDiscount": "تطبيق كود الخصم",
+    "apply": "تطبيق",
+    "removeItem": "إزالة"
+  },
+  "item": {
+    "quantity": "الكمية",
+    "inStock": "متوفر",
+    "outOfStock": "غير متوفر",
+    "outOfStockMessage": "هذا المنتج غير متوفر حالياً ولا يمكن شراؤه",
+    "lowStock": "{{count}} فقط متبقي"
+  },
+  "validation": {
+    "outOfStockWarning": "{{count}} منتج غير متوفر"
+  }
+}

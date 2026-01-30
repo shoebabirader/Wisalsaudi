@@ -1,0 +1,73 @@
+{
+  "title": "Products",
+  "inStock": "In Stock",
+  "outOfStock": "Out of Stock",
+  "filters": {
+    "title": "Filters",
+    "priceRange": "Price Range",
+    "category": "Category",
+    "brand": "Brand",
+    "rating": "Rating",
+    "availability": "Availability",
+    "inStock": "In Stock Only",
+    "clearAll": "Clear All"
+  },
+  "sort": {
+    "title": "Sort By",
+    "relevance": "Relevance",
+    "priceLowToHigh": "Price: Low to High",
+    "priceHighToLow": "Price: High to Low",
+    "newest": "Newest",
+    "popularity": "Most Popular"
+  },
+  "view": {
+    "grid": "Grid View",
+    "list": "List View"
+  },
+  "details": {
+    "description": "Description",
+    "specifications": "Specifications",
+    "reviews": "Reviews",
+    "seller": "Seller",
+    "shipping": "Shipping Information",
+    "relatedProducts": "Related Products",
+    "soldBy": "Sold by",
+    "visitStore": "Visit Store",
+    "back": "Back",
+    "notFound": "Product Not Found",
+    "notFoundMessage": "Sorry, we couldn't find the product you're looking for",
+    "backToHome": "Back to Home"
+  },
+  "actions": {
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now",
+    "favorite": "Favorite",
+    "share": "Share",
+    "quantity": "Quantity",
+    "available": "{{count}} available",
+    "adding": "Adding..."
+  },
+  "rating": {
+    "stars": "{{count}} stars",
+    "reviews": "{{count}} reviews",
+    "writeReview": "Write a Review",
+    "ratingsAndReviews": "Ratings & Reviews",
+    "basedOn": "Based on",
+    "noReviews": "No reviews yet",
+    "beFirst": "Be the first to write a review for this product",
+    "verifiedPurchase": "Verified Purchase",
+    "helpful": "Helpful"
+  },
+  "stock": {
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "lowStock": "Only {{count}} left"
+  },
+  "share": {
+    "whatsapp": "WhatsApp",
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied to clipboard"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Shopping Cart",
+  "empty": {
+    "title": "Your cart is empty",
+    "subtitle": "Start adding products to your cart",
+    "browseProducts": "Browse Products",
+    "watchVideos": "Watch Product Videos",
+    "benefits": "Why shop with WISAL?",
+    "freeShipping": "Free Shipping",
+    "quality": "Quality Products",
+    "secure": "Secure Payment"
+  },
+  "summary": {
+    "title": "Order Summary",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "discount": "Discount",
+    "total": "Total",
+    "estimatedDelivery": "Estimated Delivery",
+    "free": "Free",
+    "outOfStockWarning": "Remove out of stock items to proceed"
+  },
+  "actions": {
+    "proceedToCheckout": "Proceed to Checkout",
+    "continueShopping": "Continue Shopping",
+    "applyDiscount": "Apply Discount Code",
+    "apply": "Apply",
+    "removeItem": "Remove"
+  },
+  "item": {
+    "quantity": "Quantity",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "outOfStockMessage": "This item is currently unavailable and cannot be purchased",
+    "lowStock": "Only {{count}} left"
+  },
+  "validation": {
+    "outOfStockWarning": "{{count}} item(s) are out of stock"
+  }
+}

@@ -1,5 +1,10 @@
 {
   "title": "My Profile",
+  "userInfo": {
+    "editProfile": "Edit Profile",
+    "notLoggedIn": "Not logged in",
+    "loginPrompt": "Please log in to access your profile"
+  },
   "menu": {
     "orders": "My Orders",
     "favorites": "Favorites",
@@ -13,19 +18,64 @@
   "orders": {
     "title": "Order History",
     "empty": "No orders yet",
+    "orderNumber": "Order #{{number}}",
+    "date": "Date",
+    "total": "Total",
+    "items": "{{count}} item",
+    "items_plural": "{{count}} items",
     "status": {
       "pending": "Pending",
       "confirmed": "Confirmed",
       "processing": "Processing",
       "shipped": "Shipped",
       "delivered": "Delivered",
-      "cancelled": "Cancelled"
+      "cancelled": "Cancelled",
+      "returned": "Returned"
     },
-    "reorder": "Reorder"
+    "reorder": "Reorder",
+    "viewDetails": "View Details"
+  },
+  "favorites": {
+    "title": "My Favorites",
+    "empty": "No favorites yet",
+    "emptyDescription": "Start adding products to your favorites",
+    "remove": "Remove",
+    "addToCart": "Add to Cart"
+  },
+  "addresses": {
+    "title": "My Addresses",
+    "empty": "No addresses saved",
+    "addNew": "Add New Address",
+    "edit": "Edit",
+    "delete": "Delete",
+    "setDefault": "Set as Default",
+    "default": "Default",
+    "confirmDelete": "Are you sure you want to delete this address?"
+  },
+  "notifications": {
+    "title": "Notification Preferences",
+    "orderUpdates": "Order Updates",
+    "orderUpdatesDesc": "Get notified about order status changes",
+    "promotions": "Promotions & Offers",
+    "promotionsDesc": "Receive promotional emails and notifications",
+    "priceDrops": "Price Drop Alerts",
+    "priceDropsDesc": "Get notified when favorited items go on sale",
+    "restockAlerts": "Restock Alerts",
+    "restockAlertsDesc": "Get notified when out-of-stock items are available",
+    "email": "Email Notifications",
+    "sms": "SMS Notifications",
+    "push": "Push Notifications",
+    "save": "Save Preferences",
+    "saved": "Preferences saved successfully"
   },
   "language": {
     "title": "Select Language",
     "english": "English",
     "arabic": "العربية"
+  },
+  "stats": {
+    "totalOrders": "Total Orders",
+    "reviewsWritten": "Reviews Written",
+    "favoriteItems": "Favorite Items"
   }
 }

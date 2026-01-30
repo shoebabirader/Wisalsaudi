@@ -453,39 +453,39 @@ The implementation uses TypeScript throughout, with Next.js for the frontend PWA
 - [x] 17. Checkpoint - E-Commerce Core Complete
   - Ensure all tests pass, ask the user if questions arise.
 
-- [ ] 18. User Profile Page
-  - [ ] 18.1 Create profile page layout
+- [x] 18. User Profile Page
+  - [x] 18.1 Create profile page layout
     - Implement Profile page component
     - Display user information section
     - Create menu items list
     - _Requirements: 7.1, 7.2_
 
-  - [ ] 18.2 Implement order history
+  - [x] 18.2 Implement order history
     - Create OrderHistory component
     - Fetch user orders from API
     - Display order cards with status
     - Add quick reorder action
     - _Requirements: 7.3_
 
-  - [ ] 18.3 Create favorites/wishlist page
+  - [x] 18.3 Create favorites/wishlist page
     - Implement Favorites page
     - Display saved products
     - Add remove from favorites action
     - _Requirements: 7.4_
 
-  - [ ] 18.4 Implement address management
+  - [x] 18.4 Implement address management
     - Create Addresses page
     - Display saved addresses
     - Add/edit/delete address functionality
     - _Requirements: 7.5_
 
-  - [ ] 18.5 Create notification preferences
+  - [x] 18.5 Create notification preferences
     - Implement NotificationSettings page
     - Allow users to configure preferences
     - Save preferences to backend
     - _Requirements: 7.7_
 
-  - [ ] 18.6 Add language selection
+  - [x] 18.6 Add language selection
     - Create language switcher in profile
     - Persist language preference
     - _Requirements: 7.8_

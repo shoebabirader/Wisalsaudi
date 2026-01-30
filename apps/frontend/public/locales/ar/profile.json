@@ -1,5 +1,10 @@
 {
   "title": "ملفي الشخصي",
+  "userInfo": {
+    "editProfile": "تعديل الملف الشخصي",
+    "notLoggedIn": "غير مسجل الدخول",
+    "loginPrompt": "يرجى تسجيل الدخول للوصول إلى ملفك الشخصي"
+  },
   "menu": {
     "orders": "طلباتي",
     "favorites": "المفضلة",
@@ -13,19 +18,64 @@
   "orders": {
     "title": "سجل الطلبات",
     "empty": "لا توجد طلبات بعد",
+    "orderNumber": "طلب #{{number}}",
+    "date": "التاريخ",
+    "total": "الإجمالي",
+    "items": "{{count}} منتج",
+    "items_plural": "{{count}} منتجات",
     "status": {
       "pending": "قيد الانتظار",
       "confirmed": "مؤكد",
       "processing": "قيد المعالجة",
       "shipped": "تم الشحن",
       "delivered": "تم التسليم",
-      "cancelled": "ملغي"
+      "cancelled": "ملغي",
+      "returned": "مرتجع"
     },
-    "reorder": "إعادة الطلب"
+    "reorder": "إعادة الطلب",
+    "viewDetails": "عرض التفاصيل"
+  },
+  "favorites": {
+    "title": "مفضلاتي",
+    "empty": "لا توجد مفضلات بعد",
+    "emptyDescription": "ابدأ بإضافة المنتجات إلى مفضلاتك",
+    "remove": "إزالة",
+    "addToCart": "أضف إلى السلة"
+  },
+  "addresses": {
+    "title": "عناويني",
+    "empty": "لا توجد عناوين محفوظة",
+    "addNew": "إضافة عنوان جديد",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "setDefault": "تعيين كافتراضي",
+    "default": "افتراضي",
+    "confirmDelete": "هل أنت متأكد من حذف هذا العنوان؟"
+  },
+  "notifications": {
+    "title": "تفضيلات الإشعارات",
+    "orderUpdates": "تحديثات الطلبات",
+    "orderUpdatesDesc": "احصل على إشعارات حول تغييرات حالة الطلب",
+    "promotions": "العروض الترويجية",
+    "promotionsDesc": "استقبل رسائل البريد الإلكتروني والإشعارات الترويجية",
+    "priceDrops": "تنبيهات انخفاض الأسعار",
+    "priceDropsDesc": "احصل على إشعار عندما تنخفض أسعار المنتجات المفضلة",
+    "restockAlerts": "تنبيهات إعادة التوفر",
+    "restockAlertsDesc": "احصل على إشعار عندما تتوفر المنتجات غير المتوفرة",
+    "email": "إشعارات البريد الإلكتروني",
+    "sms": "إشعارات الرسائل النصية",
+    "push": "الإشعارات الفورية",
+    "save": "حفظ التفضيلات",
+    "saved": "تم حفظ التفضيلات بنجاح"
   },
   "language": {
     "title": "اختر اللغة",
     "english": "English",
     "arabic": "العربية"
+  },
+  "stats": {
+    "totalOrders": "إجمالي الطلبات",
+    "reviewsWritten": "المراجعات المكتوبة",
+    "favoriteItems": "المنتجات المفضلة"
   }
 }

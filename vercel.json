@@ -1,8 +1,5 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "npm run build --workspace=@wisal/frontend",
+  "buildCommand": "cd apps/frontend && npm run build",
   "installCommand": "npm install --legacy-peer-deps",
-  "framework": "nextjs",
-  "outputDirectory": "apps/frontend/.next",
-  "rootDirectory": "apps/frontend"
+  "outputDirectory": "apps/frontend/.next"
 }

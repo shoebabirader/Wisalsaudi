@@ -141,3 +141,94 @@ See `.github/workflows/ci.yml` for the CI/CD pipeline configuration.
 ## License
 
 Proprietary - All rights reserved
+
+
+## Deployment
+
+### Deploying to Vercel
+
+#### Option 1: Vercel Dashboard (Recommended)
+
+1. Go to [Vercel Dashboard](https://vercel.com/dashboard)
+2. Import your GitHub repository
+3. Configure project settings:
+   - **Root Directory**: `apps/frontend`
+   - **Framework Preset**: Next.js
+   - **Build Command**: `npm run build`
+   - **Install Command**: `npm install --legacy-peer-deps`
+4. Click "Deploy"
+
+#### Option 2: Vercel CLI
+
+```bash
+# Install Vercel CLI
+npm install -g vercel
+
+# Windows
+deploy-vercel.bat
+
+# Linux/Mac
+./deploy-vercel.sh
+```
+
+#### Troubleshooting Deployment
+
+If you encounter a 404 error after deployment:
+1. Verify **Root Directory** is set to `apps/frontend` in Vercel project settings
+2. Check that the build completed successfully in the deployment logs
+3. Ensure all environment variables are configured
+4. Redeploy the project
+
+See [VERCEL_DEPLOYMENT.md](./VERCEL_DEPLOYMENT.md) for detailed deployment guide.
+
+### Environment Variables
+
+Create `.env` files based on the `.env.example` files in each app directory:
+
+**Backend** (`apps/backend/.env`):
+```env
+DATABASE_URL=postgresql://user:password@localhost:5432/wisal
+MONGODB_URI=mongodb://localhost:27017/wisal
+REDIS_URL=redis://localhost:6379
+JWT_SECRET=your-secret-key
+AWS_ACCESS_KEY_ID=your-aws-key
+AWS_SECRET_ACCESS_KEY=your-aws-secret
+AWS_S3_BUCKET=your-bucket-name
+MOYASAR_API_KEY=your-moyasar-key
+```
+
+**Frontend** (`apps/frontend/.env.local`):
+```env
+NEXT_PUBLIC_API_URL=http://localhost:3001
+```
+
+## Project Structure
+
+```
+wisal-ecommerce-platform/
+├── apps/
+│   ├── frontend/          # Next.js PWA
+│   └── backend/           # Express API
+├── .kiro/
+│   └── specs/             # Feature specifications
+├── .github/
+│   └── workflows/         # CI/CD pipelines
+├── docker-compose.yml     # Local development setup
+└── vercel.json           # Vercel deployment config
+```
+
+## Development Workflow
+
+1. **Start services**: `docker-compose up -d`
+2. **Install dependencies**: `npm install`
+3. **Run development servers**: `npm run dev`
+4. **Run tests**: `npm test`
+5. **Build for production**: `npm run build`
+
+## Contributing
+
+See [SETUP.md](./SETUP.md) for detailed development setup instructions.
+
+## License
+
+Proprietary - All rights reserved
